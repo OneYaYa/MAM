@@ -1,0 +1,15 @@
+transformers>=4.41.0
+torch>=2.2.0
+accelerate>=0.29.0
+sentencepiece
+tokenizers
+bitsandbytes; platform_system!='Windows'  # Windows 下一般禁用
+datasets
+einops
+opencv-python
+pillow
+soundfile
+python-dotenv
+requests
+# 模型项目可能用到的依赖（按需）
+# videollama2, llava 等上游仓库请根据其README安装
